@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C03E29207F3DAB003BD942 /* NSObject+ZGCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E22207F3DAB003BD942 /* NSObject+ZGCRuntime.m */; };
+		04C03E2A207F3DAB003BD942 /* UINavigation+ZGCFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E23207F3DAB003BD942 /* UINavigation+ZGCFixSpace.m */; };
+		04C03E2B207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E25207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m */; };
+		04C03E2C207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E28207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m */; };
+		04C03E2F207F3DC7003BD942 /* PJJ_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E2E207F3DC7003BD942 /* PJJ_TestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +43,16 @@
 
 /* Begin PBXFileReference section */
 		043093FCDC0AEE7A171EE01B /* Pods-CustomNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar_Example/Pods-CustomNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04C03E21207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+ZGCFullScreen.h"; path = "../../CustomNavigationBar/Classes/UINavigationController+ZGCFullScreen.h"; sourceTree = "<group>"; };
+		04C03E22207F3DAB003BD942 /* NSObject+ZGCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZGCRuntime.m"; path = "../../CustomNavigationBar/Classes/NSObject+ZGCRuntime.m"; sourceTree = "<group>"; };
+		04C03E23207F3DAB003BD942 /* UINavigation+ZGCFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigation+ZGCFixSpace.m"; path = "../../CustomNavigationBar/Classes/UINavigation+ZGCFixSpace.m"; sourceTree = "<group>"; };
+		04C03E24207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+ZGCCreate.h"; path = "../../CustomNavigationBar/Classes/UIBarButtonItem+ZGCCreate.h"; sourceTree = "<group>"; };
+		04C03E25207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+ZGCCreate.m"; path = "../../CustomNavigationBar/Classes/UIBarButtonItem+ZGCCreate.m"; sourceTree = "<group>"; };
+		04C03E26207F3DAB003BD942 /* UINavigation+ZGCFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigation+ZGCFixSpace.h"; path = "../../CustomNavigationBar/Classes/UINavigation+ZGCFixSpace.h"; sourceTree = "<group>"; };
+		04C03E27207F3DAB003BD942 /* NSObject+ZGCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZGCRuntime.h"; path = "../../CustomNavigationBar/Classes/NSObject+ZGCRuntime.h"; sourceTree = "<group>"; };
+		04C03E28207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ZGCFullScreen.m"; path = "../../CustomNavigationBar/Classes/UINavigationController+ZGCFullScreen.m"; sourceTree = "<group>"; };
+		04C03E2D207F3DC7003BD942 /* PJJ_TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJJ_TestViewController.h; sourceTree = "<group>"; };
+		04C03E2E207F3DC7003BD942 /* PJJ_TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJJ_TestViewController.m; sourceTree = "<group>"; };
 		1496B26005808D1D2D9BB1B6 /* Pods-CustomNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar_Tests/Pods-CustomNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18F741A64A957CC26E5A0361 /* Pods_CustomNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CustomNavigationBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +78,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78CDDE26860DB46CB5933B00 /* Pods-CustomNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar_Tests/Pods-CustomNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAC50A70AE91553A02BB0467 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C881CF3DD42458F75AEFADE4 /* CustomNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomNavigationBar.podspec; path = ../CustomNavigationBar.podspec; sourceTree = "<group>"; };
-		CA48FB25F9A52F3AF5210732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BAC50A70AE91553A02BB0467 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C881CF3DD42458F75AEFADE4 /* CustomNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomNavigationBar.podspec; path = ../CustomNavigationBar.podspec; sourceTree = "<group>"; };
+		CA48FB25F9A52F3AF5210732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F369A9FE93E8C3EB5E85E8E2 /* Pods-CustomNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar_Example/Pods-CustomNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C03E20207F3D9D003BD942 /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				04C03E27207F3DAB003BD942 /* NSObject+ZGCRuntime.h */,
+				04C03E22207F3DAB003BD942 /* NSObject+ZGCRuntime.m */,
+				04C03E24207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.h */,
+				04C03E25207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m */,
+				04C03E26207F3DAB003BD942 /* UINavigation+ZGCFixSpace.h */,
+				04C03E23207F3DAB003BD942 /* UINavigation+ZGCFixSpace.m */,
+				04C03E21207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.h */,
+				04C03E28207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m */,
+			);
+			name = CustomNavigationBar;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +162,7 @@
 		6003F593195388D20070C39A /* Example for CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				04C03E20207F3D9D003BD942 /* CustomNavigationBar */,
 				6003F59C195388D20070C39A /* PJJAppDelegate.h */,
 				6003F59D195388D20070C39A /* PJJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -140,6 +171,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				04C03E2D207F3DC7003BD942 /* PJJ_TestViewController.h */,
+				04C03E2E207F3DC7003BD942 /* PJJ_TestViewController.m */,
 			);
 			name = "Example for CustomNavigationBar";
 			path = CustomNavigationBar;
@@ -406,6 +439,11 @@
 				6003F59E195388D20070C39A /* PJJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PJJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				04C03E2A207F3DAB003BD942 /* UINavigation+ZGCFixSpace.m in Sources */,
+				04C03E29207F3DAB003BD942 /* NSObject+ZGCRuntime.m in Sources */,
+				04C03E2F207F3DC7003BD942 /* PJJ_TestViewController.m in Sources */,
+				04C03E2B207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m in Sources */,
+				04C03E2C207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

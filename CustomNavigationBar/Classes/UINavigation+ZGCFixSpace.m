@@ -70,6 +70,10 @@ static BOOL zgc_tempDisableFixSpace = NO;
     if (!animated) {
         [self.navigationBar layoutSubviews];
     }
+    
+    if (self.viewControllers.count > 0) {
+        self.hidesBottomBarWhenPushed = YES;
+    }
 }
 
 - (nullable UIViewController *)zgc_popViewControllerAnimated:(BOOL)animated{
