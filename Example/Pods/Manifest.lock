@@ -1,0 +1,16 @@
+PODS:
+  - CustomNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - CustomNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  CustomNavigationBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CustomNavigationBar: 9eb3c0011affb9e97f0048e865f881881d2ca81c
+
+PODFILE CHECKSUM: 3b194f6346bf791718688bc82f269d2c7eb15b2f
+
+COCOAPODS: 1.4.0

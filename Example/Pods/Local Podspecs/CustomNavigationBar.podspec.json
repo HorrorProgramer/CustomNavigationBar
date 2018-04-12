@@ -1,0 +1,22 @@
+{
+  "name": "CustomNavigationBar",
+  "version": "0.1.0",
+  "summary": "A short description of CustomNavigationBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HorrorProgramer/CustomNavigationBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HorrorProgramer": "xwpangjunjie@163.com"
+  },
+  "source": {
+    "git": "https://github.com/HorrorProgramer/CustomNavigationBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomNavigationBar/Classes/**/*"
+}
