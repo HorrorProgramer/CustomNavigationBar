@@ -7,6 +7,8 @@
 //
 
 #import "PJJViewController.h"
+#import "UIBarButtonItem+ZGCCreate.h"
+#import "PJJ_TestViewController.h"
 
 @interface PJJViewController ()
 
@@ -14,9 +16,16 @@
 
 @implementation PJJViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(rightBtnClick:) image:[UIImage imageNamed:@"my_icon_search"]];
+}
+
+- (void)rightBtnClick:(UIButton *)btn {
+    PJJ_TestViewController *test = [[PJJ_TestViewController alloc] init];
+    
+    [self.navigationController pushViewController:test animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

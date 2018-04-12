@@ -7,6 +7,7 @@
 //
 
 #import "PJJ_TestViewController.h"
+#import "UIBarButtonItem+ZGCCreate.h"
 
 @interface PJJ_TestViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(leftBtnClick:) image:[UIImage imageNamed:@"offer_nav_return"]];
+}
+
+- (void)leftBtnClick:(UIButton *)btn {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

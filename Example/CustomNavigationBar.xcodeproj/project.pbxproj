@@ -12,6 +12,10 @@
 		04C03E2B207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E25207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.m */; };
 		04C03E2C207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E28207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m */; };
 		04C03E2F207F3DC7003BD942 /* PJJ_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C03E2E207F3DC7003BD942 /* PJJ_TestViewController.m */; };
+		04C03E32207F5B8E003BD942 /* offer_nav_return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C03E30207F5B8E003BD942 /* offer_nav_return@3x.png */; };
+		04C03E33207F5B8E003BD942 /* offer_nav_return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C03E31207F5B8E003BD942 /* offer_nav_return@2x.png */; };
+		04C03E36207F5BA7003BD942 /* my_icon_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C03E34207F5BA7003BD942 /* my_icon_search@2x.png */; };
+		04C03E37207F5BA7003BD942 /* my_icon_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C03E35207F5BA7003BD942 /* my_icon_search@3x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -53,6 +57,10 @@
 		04C03E28207F3DAB003BD942 /* UINavigationController+ZGCFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+ZGCFullScreen.m"; path = "../../CustomNavigationBar/Classes/UINavigationController+ZGCFullScreen.m"; sourceTree = "<group>"; };
 		04C03E2D207F3DC7003BD942 /* PJJ_TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJJ_TestViewController.h; sourceTree = "<group>"; };
 		04C03E2E207F3DC7003BD942 /* PJJ_TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJJ_TestViewController.m; sourceTree = "<group>"; };
+		04C03E30207F5B8E003BD942 /* offer_nav_return@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offer_nav_return@3x.png"; sourceTree = "<group>"; };
+		04C03E31207F5B8E003BD942 /* offer_nav_return@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offer_nav_return@2x.png"; sourceTree = "<group>"; };
+		04C03E34207F5BA7003BD942 /* my_icon_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_icon_search@2x.png"; sourceTree = "<group>"; };
+		04C03E35207F5BA7003BD942 /* my_icon_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_icon_search@3x.png"; sourceTree = "<group>"; };
 		1496B26005808D1D2D9BB1B6 /* Pods-CustomNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar_Tests/Pods-CustomNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18F741A64A957CC26E5A0361 /* Pods_CustomNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CustomNavigationBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +121,10 @@
 		04C03E20207F3D9D003BD942 /* CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				04C03E34207F5BA7003BD942 /* my_icon_search@2x.png */,
+				04C03E35207F5BA7003BD942 /* my_icon_search@3x.png */,
+				04C03E31207F5B8E003BD942 /* offer_nav_return@2x.png */,
+				04C03E30207F5B8E003BD942 /* offer_nav_return@3x.png */,
 				04C03E27207F3DAB003BD942 /* NSObject+ZGCRuntime.h */,
 				04C03E22207F3DAB003BD942 /* NSObject+ZGCRuntime.m */,
 				04C03E24207F3DAB003BD942 /* UIBarButtonItem+ZGCCreate.h */,
@@ -283,6 +295,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HorrorProgramer;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UYSP7CMKP7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -314,8 +329,12 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				04C03E36207F5BA7003BD942 /* my_icon_search@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				04C03E32207F5B8E003BD942 /* offer_nav_return@3x.png in Resources */,
+				04C03E37207F5BA7003BD942 /* my_icon_search@3x.png in Resources */,
+				04C03E33207F5B8E003BD942 /* offer_nav_return@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +590,7 @@
 			baseConfigurationReference = F369A9FE93E8C3EB5E85E8E2 /* Pods-CustomNavigationBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYSP7CMKP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomNavigationBar/CustomNavigationBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomNavigationBar/CustomNavigationBar-Info.plist";
@@ -586,6 +606,7 @@
 			baseConfigurationReference = 043093FCDC0AEE7A171EE01B /* Pods-CustomNavigationBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYSP7CMKP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomNavigationBar/CustomNavigationBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomNavigationBar/CustomNavigationBar-Info.plist";
