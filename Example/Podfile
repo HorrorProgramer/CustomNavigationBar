@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomNavigationBar_Example' do
+  pod 'CustomNavigationBar', :path => '../'
+
+  target 'CustomNavigationBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
