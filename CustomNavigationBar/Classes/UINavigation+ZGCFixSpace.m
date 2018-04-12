@@ -66,14 +66,16 @@ static BOOL zgc_tempDisableFixSpace = NO;
 
 //FIXME:修正iOS11之后push或者pop动画为NO 系统不主动调用UINavigationBar的layoutSubviews方法
 -(void)zgc_pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    [self zgc_pushViewController:viewController animated:animated];
     if (!animated) {
         [self.navigationBar layoutSubviews];
     }
     
+    //跳转时隐藏Tabbar
     if (self.viewControllers.count > 0) {
-        self.hidesBottomBarWhenPushed = YES;
+        viewController.hidesBottomBarWhenPushed = YES;
     }
+    
+    [self zgc_pushViewController:viewController animated:animated];
 }
 
 - (nullable UIViewController *)zgc_popViewControllerAnimated:(BOOL)animated{
